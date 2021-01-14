@@ -3,14 +3,16 @@
 //}
 
 $(document).ready(function() {
-  $("#forms").click(function(event) {
+  $("#forms").click(function() {
     event.preventDefault();
     $(".hidden").show();
 
   });
-  $("form").submit(function(event) {
-    event.preventDefault();
+  $("form").submit(function() {
     $("form").hide();
-    alert("ok!");
+    let name = $("#name").val();
+    let phone = $("#phone").val();
+    let address = $("#address").val() + ", " + $("#city").val() + " " + $("#state").val() + ", " + $("#zip").val();
+    alert(address);
   });
 });
