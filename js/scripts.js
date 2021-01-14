@@ -1,18 +1,21 @@
-//function add() {
-//$("form").hide();
-//}
+function add(name, phone, address) {
+  $("form").hide();
+  $("ul").prepend(`<li> ${name} </li>`);
+
+}
 
 $(document).ready(function() {
-  $("#forms").click(function() {
-    event.preventDefault();
+  $("button#forms").click(function() {
+    //event.preventDefault();
     $(".hidden").show();
-
+    
   });
+  
   $("form").submit(function() {
-    $("form").hide();
+    event.preventDefault();
     let name = $("#name").val();
     let phone = $("#phone").val();
     let address = $("#address").val() + ", " + $("#city").val() + " " + $("#state").val() + ", " + $("#zip").val();
-    alert(address);
+    add(name, phone, address);
+    });
   });
-});
