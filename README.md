@@ -1,12 +1,12 @@
-# Pick-a-boo
-#### *Epicodus Practice lesson #33 (Week 2) on 1/12/2021*
+# Address book
+#### *Epicodus Practice lesson #50 (Week 2) on 1/13/2021*
 ***By Daniel Adeyemi***
 
 ## *Description:*
-This project demonstrates JQuery effects of showing/hiding and manipulating DOM
+This project taking user input from the form and making address book with displaying only names and onclick on user will be displyed full info about hi
 
 ## *Setup instructions:*
-Clone repository by using this [URL](https://github.com/DanielAdeyemi/Epicodus_practice_1_12) and run the ***index.html*** file in your terminal
+Clone repository by using this [URL](https://github.com/DanielAdeyemi/Epicodus_1_13_practice_addressBook.git) and run the ***index.html*** file in your terminal
 
 ## *Tecnologies used:*
 * HTML
@@ -16,7 +16,7 @@ Clone repository by using this [URL](https://github.com/DanielAdeyemi/Epicodus_p
 * Bootstrap *v5.0.0 beta*
 
 ## *Known bugs:*
-This project has almost no style and was used only for practice purporse
+This project has almost no style and was used only for practice purporse. Not completed as of 1/13/2021
 
 ## *License and copyright:*
 
